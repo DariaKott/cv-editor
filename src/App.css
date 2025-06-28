@@ -1,0 +1,10 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-layout > * {
+  flex: 1;
+  box-sizing: border-box;
+  margin: 0;
+}

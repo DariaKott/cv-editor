@@ -1,0 +1,43 @@
+.addSkill {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+
+  // Для адаптивности: стэк кнопки и инпута на маленьких экранах
+  @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.skillList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skillItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eef1f4;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  color: #c00;
+  font-size: 1.2rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 0.5rem;
+
+  &:hover {
+    color: #900;
+  }
+}
