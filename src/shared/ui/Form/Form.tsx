@@ -10,7 +10,11 @@ export const Form = ({ children, onDelete }: FormProps) => {
   return (
     <div className={styles.form}>
       {onDelete && (
-        <button className={styles.deleteButton} onClick={onDelete}>
+        <button
+          className={styles.deleteButton}
+          onClick={onDelete}
+          onPointerDown={(e) => e.stopPropagation()}
+        >
           ✕
         </button>
       )}
