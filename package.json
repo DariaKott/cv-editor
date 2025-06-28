@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dariakott.github.io/cv-editor",
+  "author": "Daria Kotelnikova",
+  "description": "CV Editor App built with React + Vite",
+  "license": "MIT",
+
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
