@@ -27,6 +27,7 @@ export const Input = ({
         placeholder={placeholder}
         className={styles.input}
         onChange={(e) => onChange(e.target.value)}
+        onPointerDown={(e) => e.stopPropagation()} 
       />
     </label>
   );
