@@ -1,6 +1,7 @@
 .app-layout {
   display: flex;
   min-height: 100vh;
+  min-width: 750px;
 }
 
 .app-layout > * {
