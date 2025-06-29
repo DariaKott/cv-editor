@@ -6,3 +6,13 @@
   gap: 20px;
   padding: 20px 40px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  > :last-child {
+    margin-left: 40px;
+  }
+}
